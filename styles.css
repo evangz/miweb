@@ -61,9 +61,9 @@ body, ul{
       font-size: 16px;
     }    
   }
-  @media (min-width: 1600px) {
+  @media (min-width: 1900px) {
     header {
-      width: 1600px;
+      width: 1900px;
     }
   }
   .container-nav {
