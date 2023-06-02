@@ -7,26 +7,33 @@
 	<title>Mi primer Website</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
-    <div class="container-nav">
-        <nav class="navbar" role="navigation">
-            <a href="index.html" class="brand">Mi pagina web</a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <button class="button-menu-toggle">menu</button>
-    </div>
-    <div>
-        <h1>Acerca de</h1>
-        <p>¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre nuestra empresa y los servicios que ofrecemos.</p>
-        <img src="img/img01.jpg" alt="Descripción de la imagen 1"/>
-        <img src="img/img02.jpeg" alt="Descripción de la imagen 2"/>
-        <img src="img/img03.jpg" alt="Descripción de la imagen 3"/>
-    </div>
+<body>   
+    <header class="container-nav">
+            <nav class="navbar">
+                <a href="index.html" class="brand">mi pagina web</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="button-menu-toggle">menu</button>
+    </header>
+    <main>
+        <div>
+            <h1>Acerca de</h1>
+            <p>¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre nuestra empresa y los servicios que ofrecemos.</p>
+            <img src="img/img01.jpg" alt="Descripción de la imagen 1"/>
+            <img src="img/img02.jpeg" alt="Descripción de la imagen 2"/>
+            <img src="img/img03.jpg" alt="Descripción de la imagen 3"/>
+        </div>
+    </main>
+    <footer>
+        <p>Informacion sobre el desarrollador</p>
+        <button onclick="showAlert()">Haz click</button>
+        <a href="https://www.google.com" target="_blank">google</a>
+    </footer>
     <script src="menu.js"></script>
 </body>
-</html>    
+</html>
